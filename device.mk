@@ -18,6 +18,13 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
+# Lunaris Maintainer prop
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.lunaris.maintainer=Shipu
+
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
