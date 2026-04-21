@@ -22,8 +22,6 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lunaris.maintainer=Shipu
 
-# Camera
-$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
