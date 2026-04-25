@@ -22,6 +22,9 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_PACKAGES += \
     OnePlusCameraHelper
 
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
