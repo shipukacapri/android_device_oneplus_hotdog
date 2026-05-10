@@ -1,8 +1,7 @@
-#
-# Copyright (C) 2019 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hotdog.mk
+    $(LOCAL_DIR)/infinity_hotdog.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_hotdog-user \
+    infinity_hotdog-userdebug \
+    infinity_hotdog-eng
