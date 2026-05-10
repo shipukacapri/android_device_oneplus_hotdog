@@ -1,0 +1,6 @@
+# Product Defintions
+ro.product.marketname=OnePlus 7T Pro
+ro.infinity.soc=Snapdragon 855+
+ro.infinity.battery=4085 mAh
+ro.infinity.display=1440 x 3120, Fluid AMOLED
+ro.infinity.camera=48MP + 8MP + 16MP + 16MP
